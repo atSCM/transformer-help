@@ -11,7 +11,7 @@
 > **This module is not yet published!** You'll have to install it manually in the meantime: Install from source with `npm i --save-dev github:atscm/transformer-help`, then run `npm install` and `npm run build` inside it's directory.
 
 - Install the package with npm: `npm i --save-dev @atscm/transformer-help`.
-- Add it to your Atviseproject's transformers. (See [_./examples/Atviseproject.js_](./examples/Atviseproject.js) for an example).
+- Add it to your Atviseproject's transformers. (See [_./example/Atviseproject.js_](./example/Atviseproject.js) for an example).
 - Run `atscm push` to generate help documents
 
 **Note that this will override any custom help documents.**

@@ -40,18 +40,18 @@
     "atscm": "^1.0.0-beta.46"
   },
   "devDependencies": {
-    "@prettier/plugin-xml": "^0.3.0",
-    "@rollup/plugin-json": "^4.0.0",
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "@rollup/plugin-typescript": "^2.0.0",
-    "bulma": "^0.8.0",
-    "prettier": "^1.19.1",
-    "prettier-plugin-svelte": "^0.7.0",
-    "rollup": "^1.27.8",
-    "rollup-plugin-string": "^3.0.0",
-    "rollup-plugin-svelte": "^5.1.1",
-    "svelte": "^3.16.0",
-    "tslib": "^1.10.0",
-    "typescript": "^3.7.3"
+    "@prettier/plugin-xml": "0.3.0",
+    "@rollup/plugin-json": "4.0.0",
+    "@rollup/plugin-node-resolve": "6.0.0",
+    "@rollup/plugin-typescript": "2.0.0",
+    "bulma": "0.8.0",
+    "prettier": "1.19.1",
+    "prettier-plugin-svelte": "0.7.0",
+    "rollup": "1.27.8",
+    "rollup-plugin-string": "3.0.0",
+    "rollup-plugin-svelte": "5.1.1",
+    "svelte": "3.16.0",
+    "tslib": "1.10.0",
+    "typescript": "3.7.3"
   }
 }

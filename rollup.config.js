@@ -4,7 +4,7 @@ import typescript from '@rollup/plugin-typescript';
 import svelte from 'rollup-plugin-svelte';
 import { string } from 'rollup-plugin-string';
 import json from '@rollup/plugin-json';
-import { dependencies, peerDependencies } from './package.json';
+import { peerDependencies } from './package.json';
 
 const extensions = ['.js', '.ts'];
 const dev = process.env.NODE_ENV !== 'production';

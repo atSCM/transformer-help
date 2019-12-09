@@ -4,6 +4,7 @@
   "description": "A transformer that generates help for displays and scripts",
   "main": "out/index.js",
   "scripts": {
+    "build": "rollup -c --environment NODE_ENV=production",
     "dev": "rollup -cw",
     "format": "prettier --ignore-path .gitignore \"**/*\" \"!{.{npm,git}ignore,docs/assets/**/*}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +13,7 @@
   "author": "Lukas Hechenberger <lukas.hechenberger@bachmann.info>",
   "license": "MIT",
   "devDependencies": {
+    "@ls-age/bump-version": "^0.2.1",
     "@prettier/plugin-xml": "^0.3.0",
     "@rollup/plugin-json": "^4.0.0",
     "@rollup/plugin-node-resolve": "^6.0.0",

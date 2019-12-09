@@ -24,7 +24,7 @@
   "scripts": {
     "build": "rollup -c --environment NODE_ENV=production",
     "dev": "rollup -cw",
-    "format": "prettier --ignore-path .gitignore \"**/*\" \"!{.{npm,git}ignore,docs/assets/**/*}\"",
+    "format": "prettier --ignore-path .gitignore \"**/*\" \"!{.{npm,git}ignore,CHANGELOG.md,docs/assets/**/*}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "types": "tsc"
   },

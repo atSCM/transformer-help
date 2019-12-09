@@ -1,0 +1,13 @@
+{
+  "nodeId": "SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.ExampleDisplay.en",
+  "dataType": "ByteString",
+  "arrayType": "Scalar",
+  "references": {
+    "HasTypeDefinition": [
+      "VariableTypes.ATVISE.HtmlHelp"
+    ],
+    "toParent": [
+      47
+    ]
+  }
+}

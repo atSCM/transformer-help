@@ -10,6 +10,6 @@
   "private": true,
   "devDependencies": {
     "@atscm/transformer-help": "file:..",
-    "atscm": "^1.0.0-beta.45"
+    "atscm": "^1.0.0-beta.46"
   }
 }

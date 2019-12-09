@@ -31,7 +31,7 @@
     "node-opcua": "*"
   },
   "dependencies": {
-    "atscm": "^1.0.0-beta.45"
+    "atscm": "^1.0.0-beta.46"
   },
   "renovate": {
     "extends": [

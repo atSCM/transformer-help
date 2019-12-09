@@ -2,6 +2,24 @@
   "name": "@atscm/transformer-help",
   "version": "0.0.0",
   "description": "A transformer that generates help for displays and scripts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atSCM/transformer-help.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atSCM/transformer-help/issues"
+  },
+  "homepage": "https://github.com/atSCM/transformer-help#readme",
+  "author": "Lukas Hechenberger <lukas.hechenberger@bachmann.info>",
+  "keywords": [
+    "atscm",
+    "transform",
+    "transformer",
+    "generate",
+    "help",
+    "example"
+  ],
   "main": "out/index.js",
   "scripts": {
     "build": "rollup -c --environment NODE_ENV=production",
@@ -10,10 +28,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "types": "tsc"
   },
-  "author": "Lukas Hechenberger <lukas.hechenberger@bachmann.info>",
-  "license": "MIT",
+  "renovate": {
+    "extends": [
+      "@ls-age:automergeDev"
+    ]
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.8.2"
+  },
+  "peerDependencies": {
+    "atscm": "^1.0.0-beta.46"
+  },
   "devDependencies": {
-    "@ls-age/bump-version": "^0.2.1",
     "@prettier/plugin-xml": "^0.3.0",
     "@rollup/plugin-json": "^4.0.0",
     "@rollup/plugin-node-resolve": "^6.0.0",
@@ -27,13 +53,5 @@
     "svelte": "^3.16.0",
     "tslib": "^1.10.0",
     "typescript": "^3.7.3"
-  },
-  "peerDependencies": {
-    "atscm": "^1.0.0-beta.46"
-  },
-  "renovate": {
-    "extends": [
-      "@ls-age:automergeDev"
-    ]
   }
 }

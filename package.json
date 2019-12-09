@@ -36,6 +36,6 @@
   "renovate": {
     "extends": [
       "@ls-age:automergeDev"
-    ] 
+    ]
   }
 }

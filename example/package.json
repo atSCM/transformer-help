@@ -1,0 +1,15 @@
+{
+  "name": "@atscm/transformer-help-example",
+  "version": "0.0.0",
+  "description": "Example project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Hechenberger <lukas.hechenberger@bachmann.info>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@atscm/transformer-help": "file:..",
+    "atscm": "^1.0.0-beta.45"
+  }
+}

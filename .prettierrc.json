@@ -1,0 +1,15 @@
+{
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "printWidth": 100,
+  "plugins": ["svelte"],
+  "overrides": [
+    {
+      "files": "*.svg",
+      "options": {
+        "parser": "xml",
+        "printWidth": 250
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "nodeId": "SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.Advanced.button",
+  "dataType": "XmlElement",
+  "arrayType": "Scalar",
+  "references": {
+    "HasTypeDefinition": ["VariableTypes.ATVISE.Display"],
+    "toParent": [47]
+  }
+}

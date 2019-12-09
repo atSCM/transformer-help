@@ -1,0 +1,36 @@
+{
+  "name": "@atscm/transformer-help",
+  "version": "0.0.0",
+  "description": "A transformer that generates help for displays and scripts",
+  "main": "out/index.js",
+  "scripts": {
+    "dev": "rollup -cw",
+    "format": "prettier --ignore-path .gitignore \"**/*\" \"!{.{npm,git}ignore,docs/assets/**/*}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "types": "tsc"
+  },
+  "author": "Lukas Hechenberger <lukas.hechenberger@bachmann.info>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-xml": "^0.3.0",
+    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "@rollup/plugin-typescript": "^2.0.0",
+    "bulma": "^0.8.0",
+    "prettier": "^1.19.1",
+    "prettier-plugin-svelte": "^0.7.0",
+    "rollup": "^1.27.8",
+    "rollup-plugin-string": "^3.0.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "svelte": "^3.16.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "atscm": "^1",
+    "node-opcua": "*"
+  },
+  "dependencies": {
+    "atscm": "^1.0.0-beta.45"
+  }
+}

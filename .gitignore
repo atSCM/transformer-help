@@ -1,0 +1,5 @@
+node_modules
+out
+
+# Example
+example/atscm/rename.json

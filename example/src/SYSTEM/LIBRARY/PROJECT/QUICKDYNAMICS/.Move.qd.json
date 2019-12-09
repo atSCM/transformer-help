@@ -1,0 +1,9 @@
+{
+  "nodeId": "SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Move",
+  "dataType": "XmlElement",
+  "arrayType": "Scalar",
+  "references": {
+    "HasTypeDefinition": ["VariableTypes.ATVISE.QuickDynamic"],
+    "toParent": [47]
+  }
+}

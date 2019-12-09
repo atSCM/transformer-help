@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "out/types",
+    "emitDeclarationOnly": true,
+    "target": "es2018",
+    "allowJs": true
+  },
+  "files": ["src/index.ts"]
+}

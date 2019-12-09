@@ -32,5 +32,10 @@
   },
   "dependencies": {
     "atscm": "^1.0.0-beta.45"
+  },
+  "renovate": {
+    "extends": [
+      "@ls-age:automergeDev"
+    ] 
   }
 }

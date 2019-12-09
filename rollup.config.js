@@ -12,9 +12,7 @@ const dev = process.env.NODE_ENV !== 'production';
 export default {
   input: ['./src/index.ts'],
   external: id =>
-    [...builtinModules, ...Object.keys(dependencies), ...Object.keys(peerDependencies)].find(pkg =>
-      id.startsWith(pkg)
-    ),
+    [...builtinModules, ...Object.keys(peerDependencies)].find(pkg => id.startsWith(pkg)),
   plugins: [
     resolve({ extensions }),
     string({ include: '**/*.css' }),

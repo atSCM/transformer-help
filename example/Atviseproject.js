@@ -1,5 +1,7 @@
-const { Atviseproject, NodeId } = require('atscm');
-const HelpTransformer = require('@atscm/transformer-help');
+const { Atviseproject, NodeId, Transformer } = require('atscm');
+const setupHelp = require('@atscm/transformer-help');
+
+const HelpTransformer = setupHelp(Transformer);
 
 class ExampleProject extends Atviseproject {
   static get host() {

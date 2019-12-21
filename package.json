@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-xml": "0.3.0",
-    "@rollup/plugin-json": "4.0.0",
+    "@rollup/plugin-json": "4.0.1",
     "@rollup/plugin-node-resolve": "6.0.0",
     "@rollup/plugin-typescript": "2.0.1",
     "bulma": "0.8.0",

@@ -40,7 +40,7 @@
     "atscm": "^1.0.0-beta.46"
   },
   "devDependencies": {
-    "@prettier/plugin-xml": "0.5.0",
+    "@prettier/plugin-xml": "0.6.0",
     "@rollup/plugin-json": "4.0.1",
     "@rollup/plugin-node-resolve": "7.0.0",
     "@rollup/plugin-typescript": "2.1.0",

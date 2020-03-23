@@ -44,7 +44,7 @@
     "@rollup/plugin-json": "4.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
     "@rollup/plugin-typescript": "2.1.0",
-    "bulma": "0.8.0",
+    "bulma": "0.8.1",
     "prettier": "1.19.1",
     "prettier-plugin-svelte": "0.7.0",
     "rollup": "2.1.0",

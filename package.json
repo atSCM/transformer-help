@@ -47,7 +47,7 @@
     "bulma": "0.8.1",
     "prettier": "1.19.1",
     "prettier-plugin-svelte": "0.7.0",
-    "rollup": "2.1.0",
+    "rollup": "2.2.0",
     "rollup-plugin-string": "3.0.0",
     "rollup-plugin-svelte": "5.1.1",
     "svelte": "3.20.1",

@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "@atscm/transformer-help": "file:..",
-    "atscm": "1.1.0"
+    "atscm": "1.1.1"
   }
 }
